@@ -1,0 +1,6 @@
+@Inkr_HostAddress = http://localhost:5014
+
+GET {{Inkr_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

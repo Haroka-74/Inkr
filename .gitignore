@@ -1,0 +1,36 @@
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore Rider and VSCode settings
+.idea/
+.vscode/
+
+# Ignore ASP.NET Core configuration files
+appsettings.json
+secrets.json
+
+# Ignore logs and database files
+*.log
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore publish output
+publish/
+wwwroot/
+
+# Ignore dependency cache
+node_modules/
+packages/
+.vs/
+
+.env
+Firebase/
