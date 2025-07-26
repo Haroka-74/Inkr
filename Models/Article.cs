@@ -28,7 +28,7 @@ namespace Inkr.Models
         [Range(0, int.MaxValue)]
         public int ViewCount { get; set; } = 0;
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public InkrUser Author { get; set; } = null!;
         public ICollection<ArticleTag> ArticleTags { get; set; } = [];

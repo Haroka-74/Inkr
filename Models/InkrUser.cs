@@ -10,7 +10,7 @@ namespace Inkr.Models
 
         public string? Bio { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public ICollection<Article> Articles { get; set; } = [];
         public ICollection<RefreshToken> RefreshTokens { get; set; } = [];
